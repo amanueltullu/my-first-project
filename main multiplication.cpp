@@ -2,17 +2,18 @@
 using namespace std;
 
 int main() {
-    int a, b, multi;
+    int num1, num2, multi;
 
-    cout << "Enter a: "<<endl;
-    cin >> a ;
-    cout << "Enter b : "<<endl;
-	cin>> b;
+    cout << "Enter num1: "<<endl;
+    cin >> num1;
+    cout << "Enter num2 : "<<endl;
+	cin>> num2;
 
-    multi = a * b;
+    multi = num1 * num2;
 
     cout << "result= " << multi << endl;
 
     return 0;
 }
+
 
